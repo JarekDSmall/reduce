@@ -56,7 +56,7 @@ Examples:
 
 function addKeyAndValue(arr, key, value) {
     return arr.reduce(function(acc,next,idx){
-        acc[i][key] = value;
+        acc[idx][key] = value;
         return acc;
     },arr);
 }
